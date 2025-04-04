@@ -1,4 +1,4 @@
-//! This template isn't finished yet. 
+//! hi
 
 // Libraries
 #include <bits/stdc++.h> // TODO: Make decision to switch to GCC for this to work or to simply incldue all header files
