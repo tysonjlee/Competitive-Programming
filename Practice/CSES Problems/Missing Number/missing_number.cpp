@@ -1,8 +1,4 @@
-/** @link: https://cses.fi/problemset/task/1083 */
-
-#include <iostream>
-#include <algorithm> 
-#include <vector> 
+#include <bits/stdc++.h>
 using namespace std; 
 
 // #define int long long

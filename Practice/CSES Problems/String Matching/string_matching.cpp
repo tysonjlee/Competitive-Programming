@@ -1,7 +1,4 @@
-// saipp
-
-#include <iostream>
-#include <string>
+#include <bits/stdc++.h>
 using namespace std; 
 
 // #define int long long
