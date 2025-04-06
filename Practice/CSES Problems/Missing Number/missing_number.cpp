@@ -1,4 +1,8 @@
+/** @link: https://cses.fi/problemset/task/1083 */
+
 #include <iostream>
+#include <algorithm> 
+#include <vector> 
 using namespace std; 
 
 // #define int long long
@@ -13,7 +17,22 @@ const ll INF = 1e9;
 const ld EPS = 1e-9;
 
 void solve() {
-    
+    int n; cin >> n; 
+    int real_sum = 0; 
+    int expected_sum = 0; 
+    int j = 1; 
+    for (int i = 0; i < n - 1; ++i) {
+        int n;
+        cin >> n; 
+        real_sum += n; 
+
+        expected_sum += j; 
+        ++j; 
+    }
+
+    expected_sum += n; 
+
+    cout << expected_sum - real_sum;  
 }
 
 int main() {
